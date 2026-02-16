@@ -1,2 +1,17 @@
 # C--program
 This repository contains basic C++ programs for learning and practice.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, result;
+
+    cout << "Enter two numbers: ";
+    cin >> a >> b;
+
+    result = a - b;
+
+    cout << "Subtraction = " << result;
+    return 0;
+}
